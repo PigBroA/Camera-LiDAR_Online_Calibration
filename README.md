@@ -1,6 +1,6 @@
 # Camera-LiDAR_Online_Calibration
 
-This repository utilizes a lot of 3rdparty libraries, they are as follows.  
+This repository utilizes a lot of 3rdparty libraries(C++ Only), they are as follows.  
 (All libraries are modified for structure as what I configure, and you don't have to download libraries)  
 #### Own Libraries
 [BTS_cpp](https://github.com/PigBroA/BTS_cpp)  
@@ -11,6 +11,19 @@ calibration_dk
 [glob](https://github.com/p-ranav/glob)  
 [patchwork-plusplus](https://github.com/url-kaist/patchwork-plusplus)  
 [ndt_omp](https://github.com/koide3/ndt_omp)  
+
+## Environment
+ * Ubuntu 20.04.3 LTS
+ * ROS noetic 1.15.14
+ * GCC 10.3.0
+ * CMake 3.22.2
+ * LibTorch 1.9.1
+ * CUDA 11.1
+ * OpenCV 4.2.0
+ * Eigen 3.3.7
+ * PCL 1.10.1
+ * Yaml-cpp 0.6.2
+ * CasADi 3.6.1(with IPOPT, please follow [link](https://github.com/zehuilu/Tutorial-on-CasADi-with-CPP/issues/2#issuecomment-1518988014) for installation)
 
 ## Download Large Files
 | Sample DB | BTS Libtorch .pt File | HarDNet Libtorch .pt File | SuperPoint TensorRT .engine File | SuperPoint .onnx File | SuperGlue TensorRT .engine File | SuperGlue .onnx File |
@@ -60,4 +73,4 @@ Camera-LiDAR_Online_Calibration
 
 ## Contact
 If you have any question, please contact me
- * Dongkyu Lee, dlehdrb3909@chungbuk.ac.kr
+ * Dongkyu Lee, dlehdrb3909@chungbuk.ac.kr or dlehdrb3909@gmail.com
