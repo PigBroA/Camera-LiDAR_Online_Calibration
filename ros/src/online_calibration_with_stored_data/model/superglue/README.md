@@ -1,5 +1,5 @@
 ## SuperPoint & SuperGlue
- * [superglue](./superglue)
+ * superglue
    * [superglue_outdoor_sim_int32.onnx](https://o365cbnu-my.sharepoint.com/:u:/g/personal/2019132001_cbnu_ac_kr/EYAAt5tgwuhNvIIiQ5fokOoB6gNk8561mlBu-hMv9BfwnQ?e=PBTPrJ)
    * [superpoint_v1_sim_int32.onnx](https://o365cbnu-my.sharepoint.com/:u:/g/personal/2019132001_cbnu_ac_kr/ESfj4wqqV5VCpNI-kw9YzAUBzyLwPHPIDeCM_isO9LjVGw?e=FVlQ1s)
    * config.yaml
